@@ -1,0 +1,94 @@
+# Python y entornos virtuales
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Variables y secretos locales
+.env
+.env.*
+!.env.example
+
+# Credenciales y claves privadas comunes; no excluir JSON de configuración
+credentials.json
+credentials.*.json
+service-account*.json
+service_account*.json
+client_secret*.json
+secrets.json
+secrets.*.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+.aws/
+.ssh/
+
+# Cachés, cobertura y archivos temporales
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.ipynb_checkpoints/
+*.log
+*.tmp
+
+# Datos locales: acordar explícitamente qué muestras pequeñas versionar
+data/**
+!data/samples/
+!data/samples/.gitkeep
+*.zip
+*.7z
+*.tar
+*.gz
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+
+# Vídeos pesados: cualquier excepción requiere acuerdo documentado
+*.[mM][pP]4
+*.[aA][vV][iI]
+*.[mM][oO][vV]
+*.[mM][kK][vV]
+*.[wW][mM][vV]
+*.[wW][eE][bB][mM]
+*.[mM]4[vV]
+
+# Configuración personal de Obsidian; las notas Markdown se comparten
+.obsidian/
+.trash/
+
+# Archivos personales del editor y del sistema
+.vscode/
+*.code-workspace
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
