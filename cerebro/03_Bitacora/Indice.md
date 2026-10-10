@@ -9,5 +9,6 @@ Registra el trabajo realizado usando [[03_Bitacora/Plantilla]].
 - [[03_Bitacora/20261009_autor-pendiente_manual-maestro_b64c12|Auditoría, manual maestro y preparación multi-IA]]
 - [[03_Bitacora/20261009_autor-pendiente_vista-grafica_c09e71|Orden de la vista gráfica de Obsidian]]
 - [[03_Bitacora/20261009_autor-pendiente_ramas-grafo_71a4b6|Ramas del grafo y navegación jerárquica]]
+- [[03_Bitacora/20261010_autor-pendiente_interaccion-sesiones_4fd8c1|Sistema de Interacción y seguimiento documental]]
 
 Enlaza nuevas bitácoras cuando resulte apropiado y esté autorizado. Coordina cambios del índice, conserva entradas existentes y evita duplicados; nunca sobrescribas registros de otras personas.

@@ -21,8 +21,11 @@ Las rutas escritas como `docs/` y `cerebro/` se interpretan desde la raíz del r
 | Planificación | [Pendientes](../../cerebro/06_Pendientes/Indice.md), [Módulos](../../cerebro/02_Modulos/Indice.md), [Decisiones](../../cerebro/04_Decisiones/Indice.md) | Objetivos, responsables, dependencias y criterios de aceptación existentes |
 | Documentación o bitácora | Índice del área destino; [Bitácora](../../cerebro/03_Bitacora/Indice.md) cuando corresponda | Nota destino, plantilla y enlaces relacionados |
 | Investigación | [Investigación](../../cerebro/07_Investigacion/Indice.md), [Decisiones](../../cerebro/04_Decisiones/Indice.md) | Pregunta, fuentes y alternativas relacionadas |
+| Inicio o cierre de sesión, novedades, actividad y coordinación | [Colaboración](../../cerebro/11_Colaboracion/00_Panel/Indice.md), [Sesiones](../../cerebro/11_Colaboracion/05_Sesiones/Indice.md) | [Interacción y sesiones](../skills/interaccion-sesiones/PROCEDIMIENTO.md), [comandos documentales](COMANDOS_INTERACCION.md) y fuentes del asunto solicitado |
 
 Esta tabla selecciona contexto. Los procedimientos manuales de desarrollo, pruebas y gestión se eligen mediante el [Catálogo](CATALOGO_PROCEDIMIENTOS.md); no hay activación nativa implícita. Para aprender o reconstruir el entorno consulta primero el [Índice de manuales](../../cerebro/08_Manuales/00_INDICE_GENERAL.md) y después solo los capítulos pertinentes.
+
+Ante expresiones como «¿qué cambió desde mi último acceso?» o «terminé por hoy», aplica el procedimiento de interacción después de esta lectura inicial. Sus comandos son convenciones de conversación invocadas manualmente. Consulta identidad, fuentes y permisos antes de registrar una sesión; una consulta de novedades no actualiza por sí sola el último acceso.
 
 ## Calidad de las fuentes y ausencias
 

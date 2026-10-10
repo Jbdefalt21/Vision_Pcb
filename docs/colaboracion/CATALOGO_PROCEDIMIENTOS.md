@@ -8,8 +8,11 @@
 | [Pruebas y diagnóstico](../skills/pruebas-diagnostico/PROCEDIMIENTO.md) | Resultados reproducibles, fallos y limitaciones |
 | [Gestión](../skills/gestion-proyecto/PROCEDIMIENTO.md) | Objetivos y estados con evidencia, sin porcentajes inventados |
 | [Bitácora](../skills/bitacora/PROCEDIMIENTO.md) | Registro de cambios relevantes y siguiente acción |
+| [Interacción y sesiones](../skills/interaccion-sesiones/PROCEDIMIENTO.md) | Interpretación manual de solicitudes, novedades, actividad, comentarios, relevos e inicio y cierre de sesiones con evidencia |
 
 Para cada cliente usa [Adaptadores manuales](ADAPTADORES_MANUALES.md). Para aprender el entorno consulta el [Manual maestro](../../cerebro/08_Manuales/00_INDICE_GENERAL.md).
+
+El [catálogo de comandos de interacción](COMANDOS_INTERACCION.md) define expresiones de conversación, sin registrar comandos nativos en los clientes. La [guía para integrantes](../../cerebro/11_Colaboracion/00_Panel/Guia_de_Interaccion.md) explica su uso y la [matriz de validación](PRUEBAS_INTERACCION.md) delimita las simulaciones documentales.
 
 ## Ejemplos
 
