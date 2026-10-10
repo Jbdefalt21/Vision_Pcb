@@ -13,7 +13,7 @@ Preparar un proyecto universitario de inspección visual de placas PCB desarroll
 
 ## Alcance de la etapa inicial
 
-Organizar carpetas, documentación, reglas y plantillas. No implementar funciones de visión artificial, instalar paquetes ni configurar Skills todavía.
+Organizar carpetas, documentación, reglas, plantillas y procedimientos Markdown compartidos de invocación manual. No implementar funciones de visión artificial, instalar paquetes ni configurar Skills nativas todavía. La carga automática y la compatibilidad entre proveedores no están verificadas.
 
 ## Pendiente de acordar
 
