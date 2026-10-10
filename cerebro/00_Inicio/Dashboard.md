@@ -11,15 +11,17 @@
 
 ## Áreas de la bóveda
 
+Empieza aquí, elige un área y continúa desde su índice. Las plantillas, los registros y los capítulos se consultan dentro del área correspondiente.
+
+Para ver las áreas y sus notas hijas en orden, abre el [Mapa de ramas](Mapa_de_ramas.canvas).
+
 - [[01_Proyecto/Contexto|Proyecto y contexto]]
 - [[02_Modulos/Indice|Módulos]]
-- [[03_Bitacora/Indice|Bitácora]] · [[03_Bitacora/Plantilla|Plantilla de bitácora]]
-- [[04_Decisiones/Indice|Decisiones]] · [[04_Decisiones/Plantilla|Plantilla de decisión]]
+- [[03_Bitacora/Indice|Bitácora]]
+- [[04_Decisiones/Indice|Decisiones]]
 - [[05_Errores/Indice|Errores]]
 - [[06_Pendientes/Indice|Pendientes]]
 - [[07_Investigacion/Indice|Investigación]]
 - [[08_Manuales/00_INDICE_GENERAL|Manual maestro y rutas de aprendizaje]]
-- [[08_Manuales/12_ESTADO_ACTUAL_Y_PENDIENTES|Estado auditado y pendientes del entorno]]
-- [[08_Manuales/08_INCORPORACION_DE_INTEGRANTES|Checklist de incorporación]]
 
 Las reglas compartidas están en `docs/REGLAS_COMPARTIDAS.md`, en la raíz del repositorio, fuera de esta bóveda.

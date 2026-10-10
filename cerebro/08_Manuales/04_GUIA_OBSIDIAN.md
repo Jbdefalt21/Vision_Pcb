@@ -28,11 +28,11 @@ El Dashboard no es un registro acumulativo de cada comando. La bitácora guarda 
 
 `# Título` crea un encabezado; `- elemento` una lista; `- [ ]` una casilla; comillas invertidas delimitan código. Un bloque con tres comillas invertidas conserva comandos como texto y no los ejecuta.
 
-Enlaces reales de ejemplo:
+Ejemplos de sintaxis (se muestran como código para no añadir conexiones al grafo):
 
-- [[01_Proyecto/Contexto|Contexto del proyecto]]: enlace interno con etiqueta distinta del nombre del archivo.
-- [[03_Bitacora/Plantilla|Plantilla de registro]]: destino dentro de la bóveda.
-- [Reglas compartidas](../../docs/REGLAS_COMPARTIDAS.md): destino relativo desde este manual, fuera de la bóveda.
+- `[[01_Proyecto/Contexto|Contexto del proyecto]]`: enlace interno con etiqueta distinta del nombre del archivo.
+- `[[03_Bitacora/Plantilla|Plantilla de registro]]`: destino dentro de la bóveda.
+- `[Reglas compartidas](../../docs/REGLAS_COMPARTIDAS.md)`: destino relativo desde este manual, fuera de la bóveda.
 
 Los enlaces internos se expresan desde la raíz de cerebro/ y suelen omitir .md. Los Markdown relativos se calculan desde el archivo fuente. Los destinos externos a la bóveda pueden abrirse de forma distinta según el cliente y permisos; si Obsidian no los abre, usar VS Code desde la raíz. La comprobación automática de existencia no prueba la experiencia visual ni Mermaid.
 
