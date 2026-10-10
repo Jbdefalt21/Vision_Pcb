@@ -18,5 +18,8 @@
 - [[05_Errores/Indice|Errores]]
 - [[06_Pendientes/Indice|Pendientes]]
 - [[07_Investigacion/Indice|Investigación]]
+- [[08_Manuales/00_INDICE_GENERAL|Manual maestro y rutas de aprendizaje]]
+- [[08_Manuales/12_ESTADO_ACTUAL_Y_PENDIENTES|Estado auditado y pendientes del entorno]]
+- [[08_Manuales/08_INCORPORACION_DE_INTEGRANTES|Checklist de incorporación]]
 
 Las reglas compartidas están en `docs/REGLAS_COMPARTIDAS.md`, en la raíz del repositorio, fuera de esta bóveda.

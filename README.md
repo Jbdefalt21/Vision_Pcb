@@ -5,14 +5,14 @@ Proyecto universitario de inspección visual de placas PCB, desarrollado por tre
 ## Primeros pasos
 
 1. Abre `C:\vision-pcb\Vision_Pcb` mediante **Archivo > Abrir carpeta** en VS Code. Si tienes su comando disponible, también puedes ejecutar `code .` desde esa carpeta.
-2. Comprueba la rama con `git branch --show-current`. La preparación inicial se realiza en `setup/entorno-colaborativo`.
+2. Comprueba la rama con `git branch --show-current` y respeta la autorizada para tu tarea. La preparación inicial se realizó en `setup/entorno-colaborativo`; la documentación colaborativa actual se trabaja en `feature/sistema-skills`, pendiente de publicación.
 3. En Obsidian, selecciona **Abrir carpeta como bóveda** y elige `C:\vision-pcb\Vision_Pcb\cerebro`. Abre `00_Inicio/Dashboard.md`.
 4. Lee `cerebro/01_Proyecto/Contexto.md` y `docs/REGLAS_COMPARTIDAS.md` antes de editar.
 
 ## Organización
 
 - `cerebro/`: notas Markdown compartidas, contexto, módulos, bitácora, decisiones, errores, pendientes e investigación.
-- `docs/`: reglas compartidas del equipo.
+- `docs/`: reglas compartidas, router, flujo, procedimientos manuales y adaptadores.
 - `src/`: código futuro.
 - `tests/`: pruebas futuras.
 - `config/`: configuración futura del proyecto.
@@ -24,7 +24,9 @@ Proyecto universitario de inspección visual de placas PCB, desarrollado por tre
 
 El equipo utiliza GitHub para compartir el repositorio, VS Code para editar y Obsidian para las notas. Antes de comenzar, consulta el estado de Git y acuerda el alcance del trabajo con los otros integrantes. Revisa los cambios con `git diff` antes de incorporarlos al historial.
 
-Las reglas comunes están en [docs/REGLAS_COMPARTIDAS.md](docs/REGLAS_COMPARTIDAS.md). Cada asistente tiene su propio archivo de instrucciones; no se presupone compatibilidad de Skills entre proveedores y todavía no se configura ninguna.
+Las reglas comunes están en [docs/REGLAS_COMPARTIDAS.md](docs/REGLAS_COMPARTIDAS.md). Cada asistente tiene su propio archivo de instrucciones y referencias a procedimientos Markdown manuales. No hay Skills nativas del proyecto instaladas ni compatibilidad automática entre proveedores verificada.
+
+Consulta el [Manual maestro](cerebro/08_Manuales/00_INDICE_GENERAL.md), el [Catálogo](docs/colaboracion/CATALOGO_PROCEDIMIENTOS.md) y los [Adaptadores manuales](docs/colaboracion/ADAPTADORES_MANUALES.md). Los capítulos de instalación distinguen comandos comprobados localmente de pasos futuros no ejecutados.
 
 ## Entorno y estado inicial
 
