@@ -2,6 +2,8 @@
 
 Procedimiento compartido de lectura manual. La autoridad central es [Reglas compartidas](../REGLAS_COMPARTIDAS.md). No presupone carga automática de Skills ni compatibilidad nativa entre proveedores.
 
+Para responder a integrantes humanos, lee y aplica la [Política de estilo conversacional](ESTILO_CONVERSACIONAL_IA.md). Complementa la redacción formal de los documentos con explicaciones cercanas y pedagógicas, sin alterar las comprobaciones ni los permisos requeridos.
+
 ## Entrada y lectura mínima
 
 Las rutas escritas como `docs/` y `cerebro/` se interpretan desde la raíz del repositorio `C:\vision-pcb\Vision_Pcb`. Los destinos de enlaces Markdown relativos se resuelven desde el archivo que contiene el enlace; los enlaces internos Obsidian, desde la bóveda `cerebro/`.
@@ -40,5 +42,7 @@ Identifica las rutas ausentes y su efecto. No inventes arquitectura, módulos, p
 ## Salida del router
 
 Resume: tarea y módulo (o «sin definir»), rama y estado observado, documentos consultados, hechos confirmados, información provisional/no verificada, documentación ausente y restricciones. No crees un archivo por cada lectura; incorpora este resumen al informe o a la bitácora cuando sea pertinente.
+
+Adapta la presentación a la consulta: desarrolla el resumen completo cuando corresponda a una auditoría o un relevo; en una orientación sencilla comunica solo los hallazgos y límites pertinentes. Realiza las comprobaciones de contexto exigidas aunque no sea necesario repetir todos sus detalles en la respuesta.
 
 Continúa con el [Flujo de trabajo](FLUJO_TRABAJO.md) y, para sesiones relevantes, el [Procedimiento de bitácora](../skills/bitacora/PROCEDIMIENTO.md).

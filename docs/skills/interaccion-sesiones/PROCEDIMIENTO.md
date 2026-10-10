@@ -8,6 +8,8 @@ La autoridad central es [Reglas compartidas](../../REGLAS_COMPARTIDAS.md). Aplic
 
 El [Catálogo de comandos](../../colaboracion/COMANDOS_INTERACCION.md) describe las once expresiones abreviadas. La [Guía de interacción](../../../cerebro/11_Colaboracion/00_Panel/Guia_de_Interaccion.md) explica su uso para los integrantes. Las propuestas de gestión que aparezcan en una respuesta no adquieren carácter de acuerdo por estar documentadas aquí.
 
+Aplica la [Política de estilo conversacional](../../colaboracion/ESTILO_CONVERSACIONAL_IA.md) al responder a las personas: adapta el detalle a su experiencia y explica de forma progresiva. Su lectura manual complementa la norma editorial y conserva las reglas de evidencia y autorización de este procedimiento.
+
 ## Conceptos necesarios
 
 Una **sesión** es un intervalo de trabajo cuya apertura y cierre se registran explícitamente. Un **último acceso registrado** es la referencia documental más reciente atribuible a una identidad declarada, con alcance de consulta y fechas comprobables. No equivale a la última modificación de un archivo, al último mensaje del asistente ni a la fecha de un commit.
@@ -136,6 +138,8 @@ Ante «¿qué hizo Erik?» distingue registros atribuibles documentalmente a esa
 ## Formato común de respuesta
 
 Entrega respuestas breves que permitan auditar la conclusión:
+
+Selecciona los puntos pertinentes de la lista siguiente según la solicitud y preséntalos con lenguaje natural. Conserva las comprobaciones exigidas y los datos que afectan la conclusión; los formatos orientan el contenido y no obligan a mostrar una auditoría completa en cada conversación.
 
 - Intención interpretada e identidad declarada o pendiente.
 - Rama, estado local y alcance de acceso comprobado.

@@ -8,6 +8,8 @@ El Sistema de Interacción de Vision_Pcb es un protocolo documental compartido: 
 
 El protocolo sirve para solicitar novedades, consultar errores y objetivos, recuperar comentarios y preparar un relevo entre Codex, Claude Code y Gemini. Su operación requiere pedir al asistente que lea los documentos y comprobar qué fuentes pudo consultar. Esta versión no instala Skills nativas, no registra comandos de barra ni ejecuta tareas automáticamente.
 
+La [Política de estilo conversacional](../../../docs/colaboracion/ESTILO_CONVERSACIONAL_IA.md) orienta las respuestas hacia un acompañamiento cercano, paciente y pedagógico. Puedes indicar qué herramientas conoces y pedir una explicación paso a paso; el asistente debe ajustar el detalle sin abrumarte con todos los comandos. Su aplicación requiere lectura explícita y no demuestra carga automática en los clientes.
+
 ## Requisitos y preparación
 
 Para trabajar con evidencia, el asistente necesita acceso de lectura a una copia de `C:\vision-pcb\Vision_Pcb`, a sus notas Markdown y al historial Git disponible. Registrar una sesión requiere además permiso de escritura en su carpeta. Una consulta del repositorio remoto (*remote*) necesita conectividad y la autorización aplicable; una copia local puede estar desactualizada respecto de GitHub.

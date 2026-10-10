@@ -12,6 +12,8 @@ Los comandos de consulta operan en modo de solo lectura. `/inicio` y `/finalizar
 
 En cada respuesta identifica fuentes, alcance local/remoto, desconocidos y evidencia con las categorías **[CONFIRMADO]**, **[REPORTADO]**, **[DIDÁCTICO]** y **[NO VERIFICADO]**. No conviertas una propuesta en un acuerdo aprobado. Todos los ejemplos siguientes son **[DIDÁCTICO]**: ilustran solicitudes y formatos, no son actividades, comentarios ni sesiones reales de los integrantes.
 
+Aplica la [Política de estilo conversacional](ESTILO_CONVERSACIONAL_IA.md) al presentar los resultados. Adapta los formatos siguientes a la intención y experiencia de la persona; comunica la evidencia y las limitaciones pertinentes sin convertir cada respuesta en una tabla o un formulario. Las reglas de consulta, identidad y autorización conservan su alcance.
+
 ## Índice de comandos
 
 | Comando | Intención |
