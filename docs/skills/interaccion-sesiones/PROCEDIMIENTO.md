@@ -6,7 +6,7 @@ Este procedimiento es la primera versión documental del Sistema de Interacción
 
 La autoridad central es [Reglas compartidas](../../REGLAS_COMPARTIDAS.md). Aplica el [Router de contexto](../../colaboracion/ROUTER_CONTEXTO.md) y el [Flujo de trabajo](../../colaboracion/FLUJO_TRABAJO.md). Este procedimiento complementa el router existente; no lo sustituye. La instalación y la compatibilidad nativa de Codex, Claude Code y Gemini no se presuponen.
 
-El [Catálogo de comandos](../../colaboracion/COMANDOS_INTERACCION.md) describe las once expresiones abreviadas. La [Guía de interacción](../../../cerebro/11_Colaboracion/00_Panel/Guia_de_Interaccion.md) explica su uso para los integrantes. Las propuestas de gestión que aparezcan en una respuesta no adquieren carácter de acuerdo por estar documentadas aquí.
+El [Catálogo de comandos](../../colaboracion/COMANDOS_INTERACCION.md) describe las expresiones abreviadas de interacción y gestión de tareas. La [Guía de interacción](../../../cerebro/11_Colaboracion/00_Panel/Guia_de_Interaccion.md) explica su uso para los integrantes. Las propuestas de gestión que aparezcan en una respuesta no adquieren carácter de acuerdo por estar documentadas aquí.
 
 Aplica la [Política de estilo conversacional](../../colaboracion/ESTILO_CONVERSACIONAL_IA.md) al responder a las personas: adapta el detalle a su experiencia y explica de forma progresiva. Su lectura manual complementa la norma editorial y conserva las reglas de evidencia y autorización de este procedimiento.
 
@@ -35,6 +35,8 @@ Consulta primero índices y después las notas pertinentes. Conserva cada hecho 
 | Acuerdos | [Decisiones](../../../cerebro/04_Decisiones/Indice.md) | No conviertas propuestas en criterios aprobados |
 
 No repliques la bitácora completa dentro de una sesión ni copies discusiones remotas para mantener un segundo estado independiente. La sesión conserva referencias, el alcance consultado y el resultado pertinente. Aplica [Bitácora](../bitacora/PROCEDIMIENTO.md) a cambios reales relevantes y [Gestión](../gestion-proyecto/PROCEDIMIENTO.md) a objetivos y tareas.
+
+Para una actividad recibida desde PDF, Word, Markdown o texto, usa [Recepción de tareas](../gestion-proyecto/RECEPCION_TAREAS.md) y el [Índice de tareas](../../../cerebro/10_Gestion/02_Tareas/Indice.md). Relaciona su identificador estable con la sesión y la bitácora que correspondan, sin abrir otra sesión automáticamente por registrar, consultar o retomar una tarea. La ficha conserva requisitos y seguimiento; este procedimiento conserva las reglas de identidad, accesos e inicio y cierre.
 
 ## Identificación de la intención y de la persona
 

@@ -10,6 +10,8 @@ Una **sesión** registra un intervalo de trabajo iniciado explícitamente. El **
 
 Los comandos de consulta operan en modo de solo lectura. `/inicio` y `/finalizar` permiten registrar apertura o cierre únicamente cuando la solicitud manual y las restricciones vigentes autorizan esa escritura. Ningún comando concede permisos implícitos de Git, acceso remoto o envío de mensajes a otras personas. Las restricciones «sin escritura» prevalecen sobre la intención de registrar una sesión.
 
+Para tareas aplica [Recepción, documentación y seguimiento](../skills/gestion-proyecto/RECEPCION_TAREAS.md), fuente principal de transcripción, identificadores, estados y continuidad de actividad. `/registrar-tarea` requiere una solicitud que autorice el registro; `/mis-tareas` consulta sin escribir. Los otros comandos de tarea consultan o preparan propuestas y solo persisten cambios dentro de la autorización vigente. Ninguno inicia automáticamente una sesión ni publica o entrega archivos.
+
 En cada respuesta identifica fuentes, alcance local/remoto, desconocidos y evidencia con las categorías **[CONFIRMADO]**, **[REPORTADO]**, **[DIDÁCTICO]** y **[NO VERIFICADO]**. No conviertas una propuesta en un acuerdo aprobado. Todos los ejemplos siguientes son **[DIDÁCTICO]**: ilustran solicitudes y formatos, no son actividades, comentarios ni sesiones reales de los integrantes.
 
 Aplica la [Política de estilo conversacional](ESTILO_CONVERSACIONAL_IA.md) al presentar los resultados. Adapta los formatos siguientes a la intención y experiencia de la persona; comunica la evidencia y las limitaciones pertinentes sin convertir cada respuesta en una tabla o un formulario. Las reglas de consulta, identidad y autorización conservan su alcance.
@@ -29,6 +31,11 @@ Aplica la [Política de estilo conversacional](ESTILO_CONVERSACIONAL_IA.md) al p
 | `/mi-actividad` | Consultar actividad atribuible a la identidad declarada |
 | `/ayuda` | Explicar el protocolo y su alcance |
 | `/finalizar` | Cerrar una sesión real bajo autorización de registro |
+| `/registrar-tarea` | Recibir instrucciones y crear una ficha documental autorizada |
+| `/mis-tareas` | Consultar actividades registradas para la identidad declarada |
+| `/continuar-tarea` | Recuperar evidencia y retomar una actividad identificada |
+| `/revisar-tarea` | Contrastar entregables con instrucciones y criterios |
+| `/entrega` | Preparar la revisión final y comprobar el estado de entrega |
 
 ## `/inicio`
 
@@ -373,6 +380,153 @@ El cierre no ejecuta `git add`, commit, push, fusión o eliminación de ramas. N
 > Terminé por hoy. Aplica `/finalizar` a mi sesión registrada, si existe; conserva los permisos de la tarea y no publiques nada. Si no registramos un inicio, informa esa ausencia.
 
 Formato esperado sin sesión: «No existe sesión registrada identificable; se entrega un resumen y no se reconstruye una hora de inicio».
+
+## `/registrar-tarea`
+
+### Propósito y frases equivalentes
+
+Recibe una actividad y, si el registro está autorizado, crea su ficha sin inventar requisitos. Equivalentes: «Codex, esta es mi nueva tarea», «Claude, registra estas instrucciones en nuestro cerebro», «Gemini, revisa este PDF y ayúdame a hacerlo» y «Tengo un trabajo para entregar el viernes». Las dos últimas frases permiten examinar y explicar; no resuelven por sí solas una ambigüedad sobre escritura o la fecha exacta.
+
+### Fuentes
+
+Consulta [Recepción de tareas](../skills/gestion-proyecto/RECEPCION_TAREAS.md), [Tareas](../../cerebro/10_Gestion/02_Tareas/Indice.md), [Referencias](../../cerebro/09_Documentacion/03_Documentos_de_Referencia/Indice.md), [Plantilla de tarea](../../cerebro/12_Plantillas/Plantilla_tarea.md) y el original realmente accesible.
+
+### Pasos de la IA
+
+1. Comprueba rama, cambios previos, identidad pertinente, alcance y acceso al documento en este cliente. Si falta el archivo, pide una copia accesible; un adjunto en otro chat no demuestra acceso actual.
+2. Comprueba pertinencia para Vision_Pcb y permisos de conservación del original, registro y publicación por separado, reutilizando las autorizaciones existentes.
+3. Aplica la transcripción y la separación A/B/C/D del subprocedimiento. Conserva datos ausentes, ambigüedades, tablas y referencias a contenido no legible.
+4. Si corresponde registrar, genera el identificador estable, comprueba duplicados y existencia de rutas, crea la ficha y enlázala desde el índice. Reutiliza sesiones y bitácoras conforme a sus procedimientos.
+5. Explica brevemente qué se pide entregar, qué falta aclarar y el primer paso útil. Distingue requisitos oficiales de plan propuesto.
+
+### Formato de respuesta
+
+Indica fuente leída y cobertura, ficha creada o registro pendiente, requisitos principales, datos desconocidos y siguiente paso. No obligues al integrante a completar todos los campos al recibir la actividad.
+
+### Seguridad y datos no inventables
+
+No copies ni publiques originales sin permiso, elimines fuentes o inventes fechas, responsables, texto ilegible o tareas. No conviertas «viernes» en una fecha exacta sin contexto suficiente ni asumas que una actividad ajena pertenece al repositorio.
+
+### Ejemplo didáctico
+
+> Registra las instrucciones que te proporciono como tarea de Vision_Pcb, sin copiar el original ni publicar. Explica primero qué se pide entregar y conserva como desconocidos los datos ausentes.
+
+## `/mis-tareas`
+
+### Propósito y frases equivalentes
+
+Consulta actividades atribuibles a la persona declarada. Equivalentes: «Muéstrame mis tareas», «¿Qué tengo pendiente?» y «¿Qué actividades registré?». Ser solicitante y ser responsable son relaciones distintas.
+
+### Fuentes
+
+Consulta el índice y las fichas de tareas, criterios, evidencias y registros relacionados. Usa la identidad declarada según [Interacción y sesiones](../skills/interaccion-sesiones/PROCEDIMIENTO.md), sin deducirla de Git.
+
+### Pasos de la IA
+
+1. Reutiliza la identidad ya declarada; si falta y es imprescindible para el filtro personal, pide ese dato mientras ofreces la consulta general.
+2. Identifica tareas reales; excluye plantillas y casos didácticos. Distingue tareas solicitadas de tareas asignadas.
+3. Revisa estado, plazo conocido, dependencia, criterio y última evidencia. Consulta `/pendientes`, `/objetivos` o `/estado` para el contexto general sin crear estados paralelos.
+4. Resume pendientes y tareas preparadas para revisión; informa ausencias y cobertura de la copia local.
+
+### Formato de respuesta
+
+Presenta nombre y referencia, relación de la persona con la tarea, estado respaldado y siguiente paso. Si no hay fichas, indica «sin tareas registradas en las fuentes consultadas».
+
+### Seguridad y datos no inventables
+
+No crees tareas, cambies estados, asignes responsables ni avances accesos personales. No inventes prioridades ni porcentajes para ordenar la lista.
+
+### Ejemplo didáctico
+
+> Consulta mis tareas para la identidad ya declarada, sin escribir. Separa las que solicité de las que tengo asignadas y explica qué evidencia falta para terminarlas.
+
+## `/continuar-tarea`
+
+### Propósito y frases equivalentes
+
+Recupera el último punto verificable de una tarea. Equivalentes: «Continúa la tarea que estaba haciendo con Gemini», «¿Dónde me quedé?» y «¿Qué hicimos con esta tarea?». Una solicitud ambigua requiere identificar la actividad antes de editarla.
+
+### Fuentes
+
+Consulta ficha, instrucciones originales, sesiones, bitácoras, archivos asociados, errores y decisiones; relevo cuando exista. Aplica la continuidad del subprocedimiento y `/historial` para hechos previos.
+
+### Pasos de la IA
+
+1. Identifica la ficha por ID o referencia comprobada y comprueba rama y cambios locales actuales.
+2. Revisa las fuentes en el orden del subprocedimiento; indica si falta el original o una versión necesaria para verificar avances.
+3. Explica lo comprobado, lo reportado, los pendientes y el siguiente punto verificable. No asumas acceso a conversaciones privadas de otro asistente.
+4. Continúa las acciones solicitadas dentro de su autorización. Usa `/inicio` solo si se pidió registrar una sesión; reutiliza la existente cuando corresponda. Documenta cambios relevantes sin duplicar historiales.
+
+### Formato de respuesta
+
+Resume tarea y fuentes recuperadas, último avance verificable, límite de sincronización y siguiente paso autorizado o propuesto.
+
+### Seguridad y datos no inventables
+
+Un relevo no transfiere permisos nuevos. No atribuyas actividades por nombre de Git, reconstruyas sesiones ausentes ni conviertas el plan anterior en trabajo ejecutado.
+
+### Ejemplo didáctico
+
+> Recupera la tarea que identifico y explícame dónde quedó según sus archivos y bitácoras. No cambies nada hasta delimitar el siguiente paso solicitado.
+
+## `/revisar-tarea`
+
+### Propósito y frases equivalentes
+
+Compara el trabajo con instrucciones y criterios vigentes. Equivalentes: «Revisa mi trabajo», «¿Cumple la rúbrica?» y «¿Qué falta para terminar?». «Explícame qué quiere el profesor» permite explicar las instrucciones accesibles, aunque todavía no exista un entregable.
+
+### Fuentes
+
+Consulta original, sección A de la ficha, criterios identificados, entregables actuales y evidencia de verificaciones. Revisa `/fallas` y decisiones pertinentes sin reescribir el original.
+
+### Pasos de la IA
+
+1. Delimita cobertura y versión revisada. Comprueba contradicciones, fragmentos ilegibles y ausencia de criterios antes de emitir una conclusión global.
+2. Contrasta cada requisito obligatorio con evidencia concreta del entregable, incluyendo formato, tablas, rúbrica y nombre requerido del archivo.
+3. Separa contenido redactado, actividad completada y criterio verificado. Explica faltantes y correcciones propuestas; los criterios internos propuestos no sustituyen la rúbrica oficial.
+4. Si la actualización está autorizada, conserva resultados previos y registra nueva revisión y regresiones en Seguimiento. Las correcciones de archivos requieren su autorización aplicable; no las ejecutes por el mero hecho de evaluar.
+
+### Formato de respuesta
+
+Indica cobertura, criterios comprobados, incumplimientos o desconocidos, evidencia y siguiente corrección útil. El porcentaje queda «no determinado» si falta metodología aprobada o evidencia suficiente.
+
+### Seguridad y datos no inventables
+
+No declares aprobación del profesor, ejecución de pruebas ausentes ni cumplimiento completo con revisión parcial. No elimines evidencia de un fallo anterior para elevar el progreso.
+
+### Ejemplo didáctico
+
+> Compara este entregable con las instrucciones y la rúbrica accesibles, sin modificarlo. Explica qué cumple, qué falta y qué no puedes comprobar.
+
+## `/entrega`
+
+### Propósito y frases equivalentes
+
+Prepara la revisión final del entregable y consulta su estado de entrega. Equivalentes: «Prepara mi trabajo para entregar», «¿Está listo para revisión final?» y «Comprueba si ya fue entregado». Preparar no envía archivos ni publica en GitHub.
+
+### Fuentes
+
+Consulta ficha, original, entregables, criterios y última revisión; evidencia de entrega o publicación si existe y es accesible. Reutiliza `/revisar-tarea` para la comparación, sin otra lista independiente de requisitos.
+
+### Pasos de la IA
+
+1. Comprueba instrucciones de formato, nombre de archivo, plazo conocido, elementos obligatorios y restricciones contra los archivos actuales.
+2. Revisa evidencia vigente por criterio; identifica pendientes o bloqueos antes de declarar preparación para revisión o entrega.
+3. Presenta estado de actividad, verificación, entrega y publicación por separado. Si no hay evidencia de envío, informa «entrega no acreditada»; un commit o una revisión local no demuestra recepción por el profesor.
+4. Persiste revisión o prepara archivos únicamente si la solicitud lo autoriza. Cualquier envío, entrega externa o publicación requiere la autorización correspondiente y comprobación real posterior.
+5. Al terminar el trabajo, `/finalizar` aplica solo al cierre documental de una sesión identificada y autorizada; no entrega la actividad por cerrar la sesión.
+
+### Formato de respuesta
+
+Informa archivo y versión revisada, requisitos verificados, faltantes, preparación para revisión o entrega y evidencia disponible de entrega/publicación. Indica el siguiente paso concreto.
+
+### Seguridad y datos no inventables
+
+No afirmes que el trabajo fue entregado, recibido, aprobado o publicado sin evidencia. No ejecutes envíos, `git add`, commit, push o merge de forma implícita.
+
+### Ejemplo didáctico
+
+> Prepara la revisión final de esta tarea. Comprueba requisitos y formato; no envíes ni publiques. Distingue estar preparada de tener una entrega acreditada.
 
 ## Limitaciones comunes
 

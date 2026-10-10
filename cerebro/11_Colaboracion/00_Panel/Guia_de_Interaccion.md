@@ -48,6 +48,8 @@ Los comandos de barra son abreviaturas textuales del protocolo. Escríbelos dent
 
 El detalle de fuentes, pasos y formato de respuesta corresponde al catálogo. Una consulta aislada no crea una sesión ni modifica el último acceso por sí sola.
 
+Para una actividad académica o técnica puedes pedir «registra esta tarea», «muéstrame mis tareas», «continúa esta actividad», «revisa mi trabajo» o «prepara la revisión para entrega». Corresponden a `/registrar-tarea`, `/mis-tareas`, `/continuar-tarea`, `/revisar-tarea` y `/entrega` en el catálogo. Empieza por [[10_Gestion/02_Tareas/Indice|Tareas]] y el [subprocedimiento de recepción](../../../docs/skills/gestion-proyecto/RECEPCION_TAREAS.md). El asistente debe comprobar que puede leer el original, explicar qué necesitas entregar y ayudarte por pasos; preparar una entrega no significa enviarla. No necesitas iniciar otra sesión para cada actividad.
+
 ## Inicio de una sesión
 
 Una sesión es un registro documental de una interacción real, con un identificador único, participante declarado, asistente y marcas temporales comprobadas. El [[11_Colaboracion/05_Sesiones/Indice|índice de sesiones]] y la [[11_Colaboracion/05_Sesiones/Plantilla_sesion|plantilla de sesión]] permiten localizar y crear ese registro sin reconstruir accesos que nunca se documentaron.

@@ -11,5 +11,6 @@ Registra el trabajo realizado usando [[03_Bitacora/Plantilla]].
 - [[03_Bitacora/20261009_autor-pendiente_ramas-grafo_71a4b6|Ramas del grafo y navegación jerárquica]]
 - [[03_Bitacora/20261010_autor-pendiente_interaccion-sesiones_4fd8c1|Sistema de Interacción y seguimiento documental]]
 - [[03_Bitacora/20261010_181608_uriel_estilo-conversacional_92b6e1|Política conversacional y acompañamiento pedagógico]]
+- [[03_Bitacora/20261010_183806_uriel_recepcion-tareas_287fd2|Recepción, documentación y seguimiento de tareas]]
 
 Enlaza nuevas bitácoras cuando resulte apropiado y esté autorizado. Coordina cambios del índice, conserva entradas existentes y evita duplicados; nunca sobrescribas registros de otras personas.

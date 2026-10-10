@@ -12,6 +12,8 @@
 
 Para cada cliente usa [Adaptadores manuales](ADAPTADORES_MANUALES.md). Para aprender el entorno consulta el [Manual maestro](../../cerebro/08_Manuales/00_INDICE_GENERAL.md).
 
+[Recepción de tareas](../skills/gestion-proyecto/RECEPCION_TAREAS.md) amplía Gestión con acceso al original, transcripción, acompañamiento y continuidad de actividades. Utiliza la [Plantilla de tarea](../../cerebro/12_Plantillas/Plantilla_tarea.md) y sus [pruebas documentales](PRUEBAS_RECEPCION_TAREAS.md); es un subprocedimiento del existente, sin instalación nativa adicional.
+
 El [catálogo de comandos de interacción](COMANDOS_INTERACCION.md) define expresiones de conversación, sin registrar comandos nativos en los clientes. La [guía para integrantes](../../cerebro/11_Colaboracion/00_Panel/Guia_de_Interaccion.md) explica su uso y la [matriz de validación](PRUEBAS_INTERACCION.md) delimita las simulaciones documentales.
 
 ## Ejemplos

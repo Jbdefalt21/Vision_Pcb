@@ -2,6 +2,8 @@
 
 Autoridad: [Reglas compartidas](../../REGLAS_COMPARTIDAS.md). Usa [Router](../../colaboracion/ROUTER_CONTEXTO.md), [Flujo](../../colaboracion/FLUJO_TRABAJO.md) y los índices de objetivos, módulos, decisiones y pendientes. Es un procedimiento manual.
 
+Para recibir instrucciones académicas o técnicas, registrar una tarea y continuarla desde otro asistente, aplica el subprocedimiento [Recepción, documentación y seguimiento de tareas](RECEPCION_TAREAS.md). Allí se definen acceso al original, transcripción fiel, identificadores, estados de actividad y evidencia; este documento conserva las reglas generales de gestión. No constituye otra Skill ni un sistema adicional de sesiones.
+
 ## Actualización basada en evidencia
 
 1. Comprueba rama, cambios previos y permiso para editar documentación o gestionar recursos remotos.
